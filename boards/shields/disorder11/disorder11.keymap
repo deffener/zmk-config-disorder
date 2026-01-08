@@ -21,15 +21,15 @@
             bindings = <
     &kp ESC     &kp Q     &kp W     &kp E      &kp R
     &kp TAB     &kp A     &kp S                &kp G
-    &kp LSHIFT                                 &to 1 
+    &kp LSHIFT                                 &mo 1 
             >;
         };
 
         nav_layer {
             bindings = <
-    &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2    &trans      &bt BT_CLR
-    &trans          &trans         &trans                      &bootloader
-    &studio_unlock                                             &to 0
+    &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2    &none      &bt BT_CLR
+    &none          &none         &none                      &bootloader
+    &studio_unlock                                             &trans
             >;
         };
 
