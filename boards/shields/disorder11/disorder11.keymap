@@ -28,7 +28,7 @@
         nav_layer {
             bindings = <
     &bt BT_SEL 0    &bt BT_SEL 1   &bt BT_SEL 2    &none      &bt BT_CLR
-    &none          &none         &none                      &bootloader
+    &soft_off       &none         &none                      &bootloader
     &studio_unlock                                             &trans
             >;
         };
