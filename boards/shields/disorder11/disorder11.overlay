@@ -27,6 +27,8 @@
                   ,  <&gpio0 3 GPIO_ACTIVE_HIGH>
                   ,  <&gpio0 2 GPIO_ACTIVE_HIGH>
                   ;
+    };
+};
 / {
     keys {
         compatible = "gpio-keys";
@@ -50,5 +52,4 @@
     };
 };
 
-    };
-};
+
